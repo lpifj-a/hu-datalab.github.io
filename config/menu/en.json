@@ -1,0 +1,12 @@
+{
+  "menuItems": [
+    { "name": "Home", "link": "/" },
+    { "name": "About", "link": "/about" },
+    { "name": "Member", "link": "/member" },
+    { "name": "Publication", "link": "/publication" },
+    { "name": "Thesis", "link": "/thesis" },
+    { "name": "Contact", "link": "/contact" },
+    { "name": "Blog", "link": "/blog" },
+    { "name": "Message", "link": "/message" }
+  ]
+}
