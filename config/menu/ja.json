@@ -1,12 +1,8 @@
 {
   "menuItems": [
-    { "name": "ホーム", "link": "/" },
-    { "name": "研究トピック", "link": "/about-ja" },
-    { "name": "メンバー", "link": "/member-ja" },
-    { "name": "発表論文", "link": "/publication-ja" },
-    { "name": "学位論文", "link": "/thesis-ja" },
-    { "name": "問い合わせ", "link": "/contact-ja" },
-    { "name": "ブログ", "link": "/blog-ja" },
-    { "name": "B4の方へ", "link": "/message-ja" }
+    { "name": "Home", "link": "/" },
+    { "name": "About", "link": "/about" },
+    { "name": "Blog", "link": "/blog" },
+    { "name": "Contact", "link": "/contact" }
   ]
 }

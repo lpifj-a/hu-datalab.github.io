@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const LocaleContext = createContext('');
 
 const LocaleProvider = ({ children }) => {
-  const [locale, setLocale] = useState('en');
+  const [locale, setLocale] = useState('ja');
 
   function changeLocale(lang) {
     setLocale(lang);

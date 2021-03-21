@@ -1,52 +1,37 @@
 {
   "languageMapping": [
     {
-      "en": "/about",
-      "ja": "/about-ja"
+      "ja": "/about",
+      "pt": "/sobre"
     },
     {
-      "en": "/member",
-      "ja": "/member-ja"
+      "ja": "/blog",
+      "pt": "/blog"
     },
     {
-      "en": "/publication",
-      "ja": "/publication-ja"
+      "ja": "/contact",
+      "pt": "/contato"
+    },
+
+    {
+      "ja": "/blog/markdown-examples",
+      "pt": "/blog/exemplos-de-markdown"
     },
     {
-      "en": "/thesis",
-      "ja": "/thesis-ja"
+      "ja": "/blog/javascript-language",
+      "pt": "/blog/linguagem-javascript"
     },
     {
-      "en": "/contact",
-      "ja": "/contact-ja"
+      "ja": "/blog/digital-image-processing",
+      "pt": "/blog/processamento-de-imagens-digitais"
     },
     {
-      "en": "/blog",
-      "ja": "/blog-ja"
+      "ja": "/blog/adding-menu-items",
+      "pt": "/blog/adicionando-itens-no-menu"
     },
     {
-      "en": "/message",
-      "ja": "/message-ja"
-    },
-    {
-      "en": "/blog/markdown-examples",
-      "ja": "/blog/exemplos-de-markdown"
-    },
-    {
-      "en": "/blog/javascript-language",
-      "ja": "/blog/linguagem-javascript"
-    },
-    {
-      "en": "/blog/digital-image-processing",
-      "ja": "/blog/processamento-de-imagens-digitais"
-    },
-    {
-      "en": "/blog/adding-menu-items",
-      "ja": "/blog/adicionando-itens-no-menu"
-    },
-    {
-      "en": "/blog/creating-posts-and-pages",
-      "ja": "/blog/criacao-de-posts-e-paginas"
+      "ja": "/blog/creating-posts-and-pages",
+      "pt": "/blog/criacao-de-posts-e-paginas"
     }
   ]
 } 

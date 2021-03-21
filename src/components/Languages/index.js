@@ -18,7 +18,7 @@ const Languages = () => {
 
     const url = window.location.pathname.split("/").pop();
 
-    if (!url) return lang === "en" ?
+    if (!url) return lang === "ja" ?
       navigate(`/`) :
       navigate(`/${lang}`);
 
@@ -34,7 +34,7 @@ const Languages = () => {
 
     if (!associatedUrls) return navigate("/");
 
-    return lang === "en" ?
+    return lang === "ja" ?
       navigate(`/${associatedUrls[lang]}`) :
       navigate(`/${lang}/${associatedUrls[lang]}`);
   }
@@ -53,10 +53,10 @@ const Languages = () => {
       <S.LanguageItem>
         <S.LanguageLink 
           to="/" 
-          onClick={(e) => handleClickLanguage(e, "en")}
-          className={locale === 'en' ? 'is-active' : ''}
+          onClick={(e) => handleClickLanguage(e, "pt")}
+          className={locale === 'pt' ? 'is-active' : ''}
         >
-          EN
+          PT
         </S.LanguageLink>
       </S.LanguageItem>
     </S.LanguageWrapper>
