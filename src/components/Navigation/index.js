@@ -6,7 +6,9 @@ import * as S from './styled';
 
 const Navigation = ({ isActive, handleToggleMenu }) => {
   const menuItems = useMenu();
-  const { button } = useTranslations();
+  //console.log(menuItems);
+  //console.log("link to");
+  //menuItems.map((menu, index) =>console.log(menu.link));
 
   return (
     <>
@@ -22,9 +24,6 @@ const Navigation = ({ isActive, handleToggleMenu }) => {
           </S.NavigationLink>
         ))}
 
-        <S.NavigationButton to="" aria-label="Login">
-          {button}
-        </S.NavigationButton>
       </S.Navigation>
     </>
   );

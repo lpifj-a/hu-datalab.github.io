@@ -4,7 +4,7 @@ module.exports = {
   ja: {
     default: true,
     path: `ja`,
-    locale: `ja`,
+    locale: `ja-JA`,
     dateFormat: `DD/MM/YYYY`,
     siteLanguage: `ja`,
     ogLanguage: `ja_JA`,
