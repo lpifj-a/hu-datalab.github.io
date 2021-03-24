@@ -1,21 +1,21 @@
-{ 
-  "home": "Home",
+{
+  "home": "Início",
 
-  "hello": "Gatsby multi-language starter",
-  "subline": "Internationalization / i18n without third party plugins or packages for Posts and Pages. Different URLs dependending on the language. Focused on SEO, PWA, Image Optimization, Styled Components and more. This starter is also integrate with Netlify CMS to manage all pages, posts and images.",
-  "latestPosts": "Latest posts",
-  "category": "Category", 
-  "allPosts": "All Posts",
-  "toRead": "to read",
+  "hello": "Site multilíngue em Gatsby",
+  "subline": "Internacionalização / i18n sem plugins ou pacotes de terceiros para Posts e Páginas. URLs diferentes dependendo do idioma. Foco em SEO, PWA, Otimização de imagens, Styled Components e muito mais. Esse starter também é integrado ao Netlify CMS para gerenciar todas as páginas, posts e imagens.",
+  "latestPosts": "Útimos posts",
+  "category": "Categoria",
+  "allPosts": "Todos os Posts",  
+  "toRead": "de leitura",
 
-  "next": "Next",
-  "prev": "Prev",
-  "of": "of",
+  "next": "Próximo",
+  "prev": "Anterior",
+  "of": "de",
 
-  "button": "Button",
+  "button": "Botão",
 
-  "aboutProject": "Iceberg Gatsby is a PWA, save it for offline reading.",
-  "seeMorePWA": "See more PWA here",
-  "maintainedBy": "Maintained by",
-  "contributeMessage": "You can always contribute with the project on"
+  "aboutProject": "Iceberg Gatsby é um PWA, salve o site em sua homescreen para vê-lo offline.",
+  "seeMorePWA": "Leia mais sobre PWA aqui",
+  "maintainedBy": "Projeto mantido por",
+  "contributeMessage": "Você sempre poderá contribuir com esse projeto no"
 }

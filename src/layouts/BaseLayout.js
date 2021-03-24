@@ -11,7 +11,7 @@ import * as S from './styled';
 const BaseLayout = ({ children, pageContext: { locale } }) => {
   // Using the useLocale() hook to define the correct locale 
   // that will be available in all components of the tree thought its context
-  const { changeLocale } = useLocale();
+  const { changeLocale } = useLocale("");
   changeLocale(locale);
 
   return (

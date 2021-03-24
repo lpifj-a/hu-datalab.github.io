@@ -1,8 +1,8 @@
 {
   "menuItems": [
-    { "name": "Home", "link": "/" },
-    { "name": "About", "link": "/about" },
+    { "name": "Início", "link": "/" },
+    { "name": "Sobre", "link": "/sobre" },
     { "name": "Blog", "link": "/blog" },
-    { "name": "Contact", "link": "/contact" }
+    { "name": "Contato", "link": "/contato" }
   ]
 }
