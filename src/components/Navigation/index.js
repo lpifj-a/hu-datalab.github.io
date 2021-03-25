@@ -12,17 +12,9 @@ const Navigation = ({ isActive, handleToggleMenu }) => {
     <>
       <S.Navigation>
         {menuItems.map((menu, index)=>{
-          var _link = menu.link;
-          console.log("menu is",_link);
-          // delete duplicate url
-          _link = _link.split("/");
-          if(_link.length > 2){
-            _link = _link.slice(2);
-          }
-          _link = _link.join("/");
 
           return (<S.NavigationLink
-            to={_link}
+            to={menu.link}
             aria-label={menu.name}
             activeClassName="active"
             key={`${menu.link}${index}`}
@@ -31,9 +23,6 @@ const Navigation = ({ isActive, handleToggleMenu }) => {
           </S.NavigationLink>)
         },)}
 
-        <S.NavigationButton to="" aria-label="Login">
-          {button}
-        </S.NavigationButton>
       </S.Navigation>
     </>
   );

@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby multiple language starter`,
-    description: `A simple but feature rich starter boilerplate for creating a multi-language Gatsby website (Internationalization / i18n) without third party plugins or packages and also focused on SEO. This starter also contains other main Gatsby configurations you might need.`,
-    author: `@diogorodrigues`,
-    siteUrl: `https://iceberg-gatsby-multilang.netlify.com/`,
+    title: `江口研究室`,
+    description: `江口研究室のホームページです。`,
+    author: `@Hiroki1112`,
+    siteUrl: `https://hu-datalab.github.io/`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
@@ -89,8 +89,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby multiple language`,
-        short_name: `Gatsby multiple language`,
+        name: `江口研究室`,
+        short_name: `Eguchi Labo`,
         start_url: `/`,
         background_color: `#16202c`,
         theme_color: `#16202c`,

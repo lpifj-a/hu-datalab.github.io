@@ -157,7 +157,7 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   // Creating Posts List and its Pagination
-  const postsPerPage = 4;
+  const postsPerPage = 3;
   const langs = Object.keys(locales).length;
   const numPages = Math.ceil(postsTotal / langs / postsPerPage);
 

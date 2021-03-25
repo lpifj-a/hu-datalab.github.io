@@ -72,6 +72,10 @@ const GlobalStyles = createGlobalStyle`
   	height: auto;
   }
 
+  #page404 {
+    text-align : center;
+  }
+
   a {
     color: var(--primaryColor)
   }
