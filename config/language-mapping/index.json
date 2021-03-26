@@ -13,24 +13,12 @@
       "ja": "/member-ja"
     },
     {
+      "en": "/contact",
+      "ja": "/contact-ja"
+    },
+    {
       "en": "/blog/markdown-examples",
       "ja": "/blog/exemplos-de-markdown"
-    },
-    {
-      "en": "/blog/javascript-language",
-      "ja": "/blog/linguagem-javascript"
-    },
-    {
-      "en": "/blog/digital-image-processing",
-      "ja": "/blog/processamento-de-imagens-digitais"
-    },
-    {
-      "en": "/blog/adding-menu-items",
-      "ja": "/blog/adicionando-itens-no-menu"
-    },
-    {
-      "en": "/blog/creating-posts-and-pages",
-      "ja": "/blog/criacao-de-posts-e-paginas"
     }
   ]
 } 

@@ -1,17 +1,17 @@
 ---
-title: 'Exemplos de Markdown'
+title: 'Markdownの例'
 date: '2019-03-22 01:21:23'
-description: O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+description: Markdownは、可能な限り読みやすく、書きやすくすることを目的としています。
 category: Markdown
 background: '#353b48'
 image: '/assets/img/03.jpg'
 ---
 
-O Markdown deve ser o mais fácil de ler e escrever o mais possível.
+Markdownは、可能な限り読みやすく、書きやすいものを目指しています。
 
-A legibilidade, no entanto, é enfatizada acima de tudo. Um documento no formato Markdown deve ser publicado como está, como texto sem formatação, sem parecer ter sido marcado com tags ou instruções de formatação. Embora a sintaxe do Markdown tenha sido influenciada por vários filtros de texto para HTML existentes - incluindo Setext, atx, Textile, reStructuredText, Grutatext e EtText - a maior fonte de inspiração para a sintaxe do Markdown é o formato de email em texto sem formatação.
+しかしながら、読みやすさは何よりも強調されています。Markdownでフォーマットされたドキュメントは、タグやフォーマットの指示でマークアップされたように見えることなく、そのままプレーンテキストとして公開されるべきです。MarkdownのシンタックスはSetext、atx、Textile、reStructuredText、Grutatext、およびEtTextを含むいくつかの既存のテキストからHTMLへのフィルタに影響を受けていますが、Markdownのシンタックスの唯一最大のインスピレーションソースはプレーンテキストの電子メールのフォーマットです。
 
-Para esse fim, a sintaxe de Markdown é composta inteiramente de caracteres de pontuação, caracteres de pontuação que foram cuidadosamente escolhidos para parecer com o que significam. Por exemplo, asteriscos em torno de uma palavra realmente se parecem com _ ênfase _. Listas de remarcação parecem, bem, listas. Até as citações em bloco parecem passagens de texto citadas, desde que você já tenha usado o e-mail.
+このため、Markdownのシンタックスは完全に句読点文字で構成されています。句読点文字は、それらが意味するもののように見えるように慎重に選択されています。例えば、単語の周りのアスタリスクは実際には_emphasis_のように見えます。Markdownのリストは、リストのように見えます。ブロッククォートも、あなたがメールを使ったことがあると仮定すると、テキストの引用文のように見えます。
 
 ## Headers
 
@@ -23,7 +23,7 @@ Para esse fim, a sintaxe de Markdown é composta inteiramente de caracteres de p
 ##### H5
 ###### H6
 
-Alternatively, for H1 and H2, an underline-ish style:
+またH1やH2では、アンダーラインのようなスタイルを代わりに使用することができます:
 
 Alt-H1
 ======
@@ -44,94 +44,101 @@ Alt-H2
 
 ###### H6
 
+またH1やH2では、アンダーラインのようなスタイルを代わりに使用することができます:
+
+Alt-H1
+======
+
+Alt-H2
+------
+
 ## Lists
 
 ```Markdown
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+1. 1つめの要素
+2. 要素2  
+  * 順不同のサブリスト。
+1. 数字の順序は重要ではなく、数字であるかどうかが重要です。
+  1. 順序付けされたサブリスト
+4. 要素4
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+⋅⋅⋅リストアイテム内で適切にインデントされた段落を持つことができます。上の空行と先頭のスペースに注目してください（少なくとも1つですが、ここでは生のMarkdownを整列させるために3つ使用します）。
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+⋅⋅⋅段落なしで改行するには、末尾に2つのスペースを使用する必要があります。⋅⋅
+⋅⋅⋅この行は別のものですが、同じ段落内にあることに注意してください。⋅⋅  
+⋅⋅⋅この書き方は典型的なGFMの改行とは異なり、末尾のスペースは必要ありません）。
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+* 順不同のリストにはアスタリスクを使用可能
+- Or マイナス記号
++ Or プラス記号
+
 ```
 
-1. First ordered list item
-2. Another item
-   ⋅⋅\* Unordered sub-list.
-3. Actual numbers don't matter, just that it's a number
-   ⋅⋅1. Ordered sub-list
-4. And another item.
+1. 1つめの要素
+2. 要素2  
+  * 順不同のサブリスト。
+1. 数字の順序は重要ではなく、数字であるかどうかが重要です。
+  1. 順序付けされたサブリスト
+4. 要素4
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+⋅⋅⋅リストアイテム内で適切にインデントされた段落を持つことができます。上の空行と先頭のスペースに注目してください（少なくとも1つですが、ここでは生のMarkdownを整列させるために3つ使用します）。
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+⋅⋅⋅段落なしで改行するには、末尾に2つのスペースを使用する必要があります。⋅⋅
+⋅⋅⋅この行は別のものですが、同じ段落内にあることに注意してください。⋅⋅  
+⋅⋅⋅この書き方は典型的なGFMの改行とは異なり、末尾のスペースは必要ありません）。
 
--   Unordered list can use asterisks
-
-*   Or minuses
-
--   Or pluses
+* 順不同のリストにはアスタリスクを使用可能
+- Or マイナス記号
++ Or プラス記号
 
 ## Links
 
 ```Markdown
-[I'm an inline-style link](https://www.google.com)
+[インラインスタイルのリンク](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[タイトル付きのインラインスタイルのリンク](https://www.google.com "Google's Homepage")
 
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
+[リファレンススタイルのリンク][Arbitrary case-insensitive reference text]
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[レポジトリファイルへの相対的な参照](../blob/master/LICENSE)
 
-[You can use numbers for reference-style link definitions][1]
+[リファレンススタイルのリンク定義に番号を使用することができます。][1]
 
-Or leave it empty and use the [link text itself].
+または、空欄にして[リンクテキストそのもの]を使用してください。
 
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
+URLや角括弧内のURLは自動的にリンクになります。
+http://www.example.com または <http://www.example.com>、場合によっては
+example.com（ただし、Githubなどではありません）。
 
-Some text to show that the reference links can follow later.
+参照用のリンクが後に続くことを示すためにいくつかのテキストを提示します。
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[任意の大文字小文字を区別しない参照テキスト]: https://www.mozilla.org
 [1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+[リンク自体]: http://www.reddit.com
 
 ```
 
-[I'm an inline-style link](https://www.google.com)
+[インラインスタイルのリンク](https://www.google.com)
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+[タイトル付きのインラインスタイルのリンク](https://www.google.com "Google's Homepage")
 
-[I'm a reference-style link][arbitrary case-insensitive reference text]
+[リファレンススタイルのリンク][Arbitrary case-insensitive reference text]
 
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
+[レポジトリファイルへの相対的な参照](../blob/master/LICENSE)
 
-[You can use numbers for reference-style link definitions][1]
+[リファレンススタイルのリンク定義に番号を使用することができます。][1]
 
-Or leave it empty and use the [link text itself].
+または、空欄にして[リンクテキストそのもの]を使用してください。
 
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
+URLや角括弧内のURLは自動的にリンクになります。
+http://www.example.com または <http://www.example.com>、場合によっては
+example.com（ただし、Githubなどではありません）。
 
-Some text to show that the reference links can follow later.
+参照用のリンクが後に続くことを示すためにいくつかのテキストを提示します。
 
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[任意の大文字小文字を区別しない参照テキスト]: https://www.mozilla.org
 [1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+[リンク自体]: http://www.reddit.com
 
 ## Tables
 
@@ -152,20 +159,20 @@ Some text to show that the reference links can follow later.
 ## Blockquotes
 
 ```Markdown
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> ブロッククォートは、電子メールでは返信用テキストを模倣するのに非常に便利です。
+> この行は同じ引用の一部です。
 
-Quote break.
+引用終了
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+> これはとても長い行で、ラップしてもちゃんと引用されます。困ったな......みんなのために実際に折り返すのに十分な長さになるように書き続けよう。また、**Markdown**をblockquote内に*put*できます。
 ```
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> ブロッククォートは、電子メールでは返信用テキストを模倣するのに非常に便利です。
+> この行は同じ引用の一部です。
 
-Quote break.
+引用終了
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+> これはとても長い行で、ラップしてもちゃんと引用されます。困ったな......みんなのために実際に折り返すのに十分な長さになるように書き続けよう。また、**Markdown**をblockquote内に*put*できます。
 
-[Referência 1](https://daringfireball.net/projects/markdown/syntax#philosophy)
-[Referência 2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+[参照 1](https://daringfireball.net/projects/markdown/syntax#philosophy)
+[参照 2](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
