@@ -3,7 +3,6 @@
     { "name": "Home", "link": "/" },
     { "name": "研究室紹介", "link": "/about-ja" },
     { "name": "メンバー", "link": "/member-ja" },
-    { "name": "ブログ", "link": "/blog" },
-    { "name": "問い合わせ", "link": "/contact-ja" }
+    { "name": "ブログ", "link": "/blog" }
   ]
 }

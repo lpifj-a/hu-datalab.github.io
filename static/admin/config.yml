@@ -63,7 +63,7 @@ collections:
 
     #Posts (Portuguese)
     - name: 'posts-ja' # Used in routes, e.g., /admin/collections/blog
-      label: 'Posts (Portuguese)' # Used in the UI
+      label: 'Posts (Japanese)' # Used in the UI
       folder: 'blog' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
