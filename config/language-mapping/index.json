@@ -2,7 +2,7 @@
   "languageMapping": [
     {
       "en": "/about",
-      "ja": "/about-ja"
+      "ja": "/about"
     },
     {
       "en": "/blog",
@@ -10,11 +10,11 @@
     },
     {
       "en": "/member",
-      "ja": "/member-ja"
+      "ja": "/member"
     },
     {
       "en": "/contact",
-      "ja": "/contact-ja"
+      "ja": "/contact"
     },
     {
       "en": "/blog/markdown-examples",
