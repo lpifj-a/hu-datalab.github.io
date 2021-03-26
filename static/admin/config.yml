@@ -1,9 +1,9 @@
 backend:
     #name: github # Local
     name: git-gateway # Prod
-    repo: diogorodrigues/iceberg-gatsby-multilang
-    branch: master
-    site_domain: https://awesome-beaver-8d4015.netlify.app/
+    repo: https://github.com/Hiroki1112/hu-datalab.github.io
+    branch: main
+    site_domain: https://labo-homepage-test.netlify.app/
     
 
 publish_mode: editorial_workflow
