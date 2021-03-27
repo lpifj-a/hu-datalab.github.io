@@ -3,6 +3,7 @@ import media from 'styled-media-query';
 import LocalizedLink from '../LocalizedLink';
 
 export const HeaderWrapper = styled.div`
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
   ${media.greaterThan('large')`
     margin-bottom: var(--space);
   `}

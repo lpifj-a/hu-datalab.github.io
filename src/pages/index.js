@@ -27,9 +27,7 @@ const Index = ({ data: { allMarkdownRemark } }) => {
       <TitlePage text={hello} />
       <p>{subline}</p>
       <hr style={{ margin: `2rem 0` }} />
-      <h2>
-        <strong>{latestPosts}</strong>
-      </h2>
+      <h2>{latestPosts}</h2>
 
       <br />
 

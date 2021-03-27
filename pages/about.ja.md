@@ -1,6 +1,7 @@
 ---
 title: '研究室について'
 date: 2021-03-25 01:21:23
+template: "about"
 page: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "問い合わせ"
 date: 2021-03-31 01:24:00
+template: "contact"
 page: true
 ---
 

@@ -89,6 +89,9 @@ exports.createPages = async ({ graphql, actions }) => {
     `./src/templates/posts-list.js`,
   );
   const pageTemplate = path.resolve(`./src/templates/page.js`);
+  const pageAboutTemplate = path.resolve(`./src/templates/about.js`);
+  const pageMemberTemplate = path.resolve(`./src/templates/member.js`);
+  const pageContactTemplate = path.resolve(`./src/templates/contact.js`);
 
   const result = await graphql(`
     {
@@ -136,9 +139,26 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Check if it's page (to differentiate post and page)
     const isPage = file.frontmatter.page;
+    const templateType = file.frontmatter.template;
 
     // Setting a template for page or post depending on the content
-    const template = isPage ? pageTemplate : postTemplate;
+    if(isPage){
+      switch(templateType){
+        case "about":
+          var template = pageAboutTemplate;
+          break;
+        case "member":
+          var template = pageMemberTemplate;
+          break;
+        case "contact":
+          var template = pageContactTemplate;
+          break;
+        default:
+          var template = pageTemplate;
+      }
+    }else{
+      var template = postTemplate;
+    }
 
     // Count posts
     postsTotal = isPage ? postsTotal + 0 : postsTotal + 1;
