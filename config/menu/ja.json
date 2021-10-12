@@ -1,9 +1,0 @@
-{
-  "menuItems": [
-    { "name": "Home", "link": "/" },
-    { "name": "研究室紹介", "link": "/about" },
-    { "name": "メンバー", "link": "/member" },
-    { "name": "ブログ", "link": "/blog" },
-    { "name": "お問い合わせ", "link": "/contact" }
-  ]
-}
