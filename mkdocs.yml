@@ -1,0 +1,36 @@
+site_name: HU-Datalab
+
+# Documentation and theme
+docs_dir: 'docs'
+copyright: 'Copyright © 2021  HU-Datalab.'
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: blue grey
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      primary: blue grey
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Extensions
+markdown_extensions:
+  - admonition
+
+extra:
+  search:
+      language: 'jp'
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: 日本語
+      link: /ja/
+      lang: ja
+
+
