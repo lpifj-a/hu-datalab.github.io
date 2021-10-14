@@ -1,4 +1,14 @@
-# 広島大学　データ解析・モデリング研究室
+# Top
 
-このサイトは英語と日本語に対応しています。  
-サイト左のメニューから選択してください。
+## Hiroshima University Data Analysis and Modeling Laboratory
+This site is available in English and Japanese.  
+You can jump to each language page from the buttons below.
+
+## 広島大学　データ解析・モデリング研究室
+
+このサイトは日本語と英語に対応しています。  
+以下のボタンから各言語ページに飛ぶことができます。  
+
+## Buttons
+
+[English](/en/){ .md-button }  [日本語](/ja/){ .md-button }

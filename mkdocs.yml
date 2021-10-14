@@ -1,11 +1,14 @@
-site_name: HU-Datalab
+site_name: HU-DataLab
 
 # Documentation and theme
 docs_dir: 'docs'
-copyright: 'Copyright © 2021  HU-Datalab.'
+copyright: 'Copyright © 2021  HU-DataLab.'
 
 theme:
   name: material
+  language: ja
+  favicon: images/logo.png
+  logo: images/logo.png
   palette:
     - scheme: default
       primary: blue grey
@@ -21,6 +24,7 @@ theme:
 # Extensions
 markdown_extensions:
   - admonition
+  - attr_list
 
 extra:
   search:
