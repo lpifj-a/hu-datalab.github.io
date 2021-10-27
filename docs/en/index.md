@@ -1,4 +1,4 @@
 # Home
 
-Hiroshima University 
+Data Analytics & Modeling Laboratory at Hiroshima University 
 
