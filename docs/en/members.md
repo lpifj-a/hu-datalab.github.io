@@ -1,8 +1,8 @@
 # Members
 
 ## Faculty
-- Koji Eguchi
-- Daniel Andrade
+- [Koji Eguchi](https://researchmap.jp/eguchi?lang=en)
+- [Daniel Andrade](https://seeds.office.hiroshima-u.ac.jp/profile/en.80a89287f8ce0746520e17560c007669.html)
 
 ## PhD Students
 - Weiran Xu
