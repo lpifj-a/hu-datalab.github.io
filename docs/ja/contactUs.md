@@ -2,4 +2,4 @@
 
 興味をお持ちの方は、以下のアドレスまで連絡してください。
 
-- kxeguchi[ ](../at.gif)hiroshima-u.ac.jp
+- kxeguchi ![at](../images/at.png) hiroshima-u.ac.jp
