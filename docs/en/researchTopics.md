@@ -8,4 +8,4 @@
 ## Data analytics
 - Text Analysis
 - Network Analysis
-- Time series Analysis
+- Time Series Analysis
