@@ -1,8 +1,8 @@
 # Top
 
-## Hiroshima University Data Analysis and Modeling Laboratory
+## Data Analytics & Modeling Laboratory at Hiroshima University
 This site is available in English and Japanese.  
-You can jump to each language from the buttons below.
+You can jump to each language from the button below.
 
 ## 広島大学　データ解析・モデリング研究室
 
