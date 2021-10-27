@@ -2,7 +2,7 @@
 
 ## Statistical machine learning
 - Deep learning
-- Bayesian statistics and Bayesian modeling
+- Bayesian statistics and modeling
 - Model selection
 
 ## Data analytics
