@@ -1,4 +1,4 @@
-name: Deploy mkdocs
+name: Deploy mkdocs manually
 
 on:
   workflow_dispatch:
