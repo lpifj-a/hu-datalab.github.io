@@ -10,14 +10,11 @@
 ## 修士 (Master's Students)
 - バブ リヨガル (Liyogar Babu)
 - 稲葉 勇哉 (Yuya Inaba)
-- 佐藤 滉起 (Koki Sato)
-- 渡辺 耕平 (Kohei Watanabe)
-
 		
 ## 学部生 (Undergraduate students)
-- 土谷 義
-- 三谷 真裕
-- 佐藤 亮太 
-- 平見 健悟 
-- 石原 爽一朗 
-- 竹原 健将 
+- 岩下 大樹 (Hiroki Iwashita)		
+- 大迫 祐斗 (Yuto Osako)
+- 佐藤 滉起 (Koki Sato)
+- 白石 望 (Nozomi Shiraishi)
+- 末富 健太郎 (Kentaro Suetomi)
+- 渡辺 耕平 (Kohei Watanabe)
