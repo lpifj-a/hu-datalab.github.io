@@ -16,8 +16,8 @@
 		
 ## 学部生 (Undergraduate students)
 - 土谷 義
-- 三谷 真裕
-- 佐藤 亮太 
-- 平見 健悟 
-- 石原 爽一朗 
-- 竹原 健将 
+- 三谷 真裕 (Masahiro Mitani)
+- 佐藤 亮太 (Ryota Sato)
+- 平見 健悟（Kengo Hirami） 
+- 石原爽一朗 (Souichiro Ishihara)
+- 竹原 健将 (Kensho Takehara)
