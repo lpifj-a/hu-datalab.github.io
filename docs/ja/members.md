@@ -15,7 +15,7 @@
 
 		
 ## 学部生 (Undergraduate students)
-- 土谷 義
+- 土谷 義 (Kiri Tsuchiya)
 - 三谷 真裕 (Masahiro Mitani)
 - 佐藤 亮太 (Ryota Sato)
 - 平見 健悟（Kengo Hirami） 
