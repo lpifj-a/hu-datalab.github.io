@@ -12,6 +12,7 @@
 - 稲葉 勇哉 (Yuya Inaba)
 - 佐藤 滉起 (Koki Sato)
 - 渡辺 耕平 (Kohei Watanabe)
+- 史 晋源 (Jinyuan Shi)
 
 		
 ## 学部生 (Undergraduate students)
