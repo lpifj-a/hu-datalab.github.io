@@ -10,16 +10,11 @@
 ## Master's Students
 - Liyogar Babu
 - Yuya Inaba
-- Koki Sato
-- Kohei Watanabe
-- Jinyuan Shi
 		
 ## Undergraduate students
-- Kiri Tsuchiya
-- Masahiro Mitani
-- Ryota Sato
-- Kengo Hirami
-- Souichiro Ishihara
-- Kensho Takehara
-
-
+- Hiroki Iwashita		
+- Yuto Osako
+- Koki Sato
+- Nozomi Shiraishi
+- Kentaro Suetomi
+- Kohei Watanabe

@@ -9,3 +9,4 @@
 - Text Analysis
 - Network Analysis
 - Time Series Analysis
+- Financial Data Analytics
