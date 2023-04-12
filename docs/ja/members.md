@@ -3,6 +3,7 @@
 ## 教員 (Faculty)
 - [江口 浩二 (Koji Eguchi)](https://researchmap.jp/eguchi?lang=ja)
 - [アンドラーデ ダニエル (Daniel Andrade)](https://seeds.office.hiroshima-u.ac.jp/profile/ja.80a89287f8ce0746520e17560c007669.html)
+- 福嶋 誠 (Makoto Fukushima)
 
 ## 博士(PhD Students)
 - 許 蔚然 (Weiran Xu)
